@@ -32,3 +32,4 @@ try to pull request
     保证本地dev分支是完全远程dev分支的复制
 
 4. 同理3，想更新哪个分支就从远程复制哪个分支，复制到本地的名字随便，记住要往哪个分支推就行。例如，你从远程复制dev分支后，就不要pull request到feature分支。
+5. 以上理解就可以，在这个仓库我对master、dev、feature分支做了明显区分，实际中dev、feature就是从main分支衍生出的，具体情况具体讨论吧。
