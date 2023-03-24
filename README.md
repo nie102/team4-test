@@ -13,9 +13,10 @@ try to pull request
 
 - 错误做法
 
-    在第一次git clone后，使用``` git branch dev``` 创建了dev分支
+    在第一次git clone后，使用``` git branch dev``` 创建dev分支
+
+    这种创建是复制了一份master分支的内容给dev，即使在创建后用```git pull```，会把
 
 - 正确做法：
 
-    在第一次git clone后，使用``` git checkout -b dev origin/dev``` 创建并切换到新分支dev，同时新分支与远程分支origin/dev保持同步
-
+    在第一次git clone后，使用``` git branch dev origin/dev``` 根据远程分支origin/dev创建dev分支
